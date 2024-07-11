@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+.text-color {
+  color: #f50136;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.link-hover:hover {
+  color: #18181c;
+}
+
+.btn {
+  font-size: 12px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 12px 40px;
+  outline: 0 !important;
+  cursor: pointer;
+  border-radius: 99px;
+}
+
+/* .btn-primary {
+  --mdb-btn-bg: #f50136;
+  --mdb-btn-color: #fff;
+  --mdb-btn-box-shadow: 0 4px 9px -4px ##18181c;
+  --mdb-btn-hover-bg: #18181c;
+  --mdb-btn-hover-color: #18181c;
+  --mdb-btn-focus-bg: #f50136;
+  --mdb-btn-focus-color: #fff;
+  --mdb-btn-active-bg: #f50136;
+  --mdb-btn-active-color: #fff;
+  --mdb-btn-active-border-color: #f50136;
+  --mdb-btn-disabled-color: #fff;
+  --mdb-btn-disabled-bg: #f50136;
+  --mdb-btn-disabled-border-color: #f50136;
+  --mdb-btn-hover-border-color: #f50136;
+} */
+
+.btn-primary {
+  background-color: #f50136;
+  border: solid 1px #f50136;
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  background-color: #18181c;
+  border: solid 1px #18181c;
+  color: #f50136;
+  border-radius: 50px;
+}
+
+.big-btn {
+  width: 100%;
+}
+
+.unfollow-btn {
+  background-color: #18181c;
+  color: #f50136;
+  border: none;
+}
+
+.unfollow-btn:hover {
+  background-color: #f50136;
+  color: #fff;
+  border: none;
+}
+
+.background {
+  background: linear-gradient(#f50136, #9198e5);
+}
+
+.cover {
+  height: 100vh;
+}
+
+/* navbar css */
+.logo {
+  width: 200px;
+}
+.nav-css {
+  background-color: #18181c;
+}
+
+.nav-item-style {
+  color: #fff;
+}
+
+.nav-item-style:hover {
+  color: #f50136;
+}
+
+/* home screem css */
+.landing-page-img {
+  background-image: url('./assets/home.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  filter: blur(5px);
+  -webkit-filter: blur(7px);
+}
+
+.landing-page-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-item {
+  padding: 120px 0;
+}
+
+.home-xl-text {
+  /* text-transform: uppercase; */
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #f50136;
+}
+
+.home-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #e9ae3f;
+  /* text-transform: uppercase; */
+}
+
+/* signup css */
+
+/* login css */
+
+/* developer screen css */
+.img-style {
+  width: 150px;
+  border-radius: 999px;
+}
+
+/* developer details screen css */
+
+/* post screen */
+.post-image {
+  width: 400px;
+}
+
+/* post detail screen css */
+
+.post-detail-image {
+  width: 800px;
+}
+
+.post-text {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 60px;
+}
+
+/* footer css */
+.footer {
+  font-size: 17px;
+  color: #18181c;
+}
+
+.cover-footer {
+  position: absolute;
+  bottom: calc(100% - 900px);
+  left: 40%;
+}
+.heart-color {
+  color: #f50136;
+}
